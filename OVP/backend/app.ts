@@ -1,13 +1,17 @@
 require('dotenv').config();
 import express from 'express'
 const bodyParser = require('body-parser');
-var app=express()
 
+var app=express()
 const endPont=require('./routes')
 app.use(bodyParser.urlencoded({ extended: true }));
-var {Movies,Tvshows,User}=require('./src/models')
-app.use(bodyParser.json());
-
+const path=require('path')
+const cors=require('cors')
+const ejs=require('ejs')
+app.set('view engine','ejs')
+app.set('views',path.join(__dirname,'src/views'))
+app.use("/video", express.static(__dirname + "src/video"))
+app.use(express.static(path.join(__dirname, 'src/public')))
 
 
 app.use('/api',endPont.login)
@@ -50,4 +54,4 @@ app.get('*',(req,res)=>{
 
 
 
-app.listen(8000,()=>{console.log("server started")})
+app.listen(8000,()=>{console.log("server started 8000")})
