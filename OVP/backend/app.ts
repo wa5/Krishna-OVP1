@@ -3,7 +3,7 @@ import express from 'express'
 const bodyParser = require('body-parser');
 
 var app=express()
-const endPont=require('./routes')
+const endPont=require('./src/routes')
 app.use(bodyParser.urlencoded({ extended: true }));
 const path=require('path')
 const cors=require('cors')
