@@ -1,3 +1,3 @@
-export const home=require('./home.routes')
-export const login=require('./login.routes')
-export const register=require('./register.routes')
+export const home=require('./api/home.routes')
+export const login=require('./api/login.routes')
+export const register=require('./api/register.routes')
