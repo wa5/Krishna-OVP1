@@ -1,0 +1,97 @@
+<form
+method="post"
+enctype="multipart/form-data"
+  action="http://localhost:8000/movie"
+ 
+>
+  <div class="row g-3">
+    <div class="col-12">
+      <label for="email" class="form-label"><h3>Tittle</h3> </label>
+      <input
+        name="title"
+        type="text"
+        class="form-control"
+        id="email"
+        placeholder="move tittle"
+      />
+      <div class="invalid-feedback">
+        Please enter a valid email address for shipping updates.
+      </div>
+    </div>
+    <div class="col-12">
+      <label for="email" class="form-label"
+        ><h3>Discription</h3>
+      </label>
+      <input
+        name="discription"
+        type="text"
+        class="form-control"
+        id="email"
+        placeholder="move discription"
+      />
+      <div class="invalid-feedback">
+        Please enter a valid email address for shipping updates.
+      </div>
+    </div>
+    <div class="col-12">
+      <label for="email" class="form-label"><h3>category</h3> </label>
+      <select
+        name="categary"
+        class="form-select"
+        aria-label="Default select example"
+      >
+        <option selected>Open this select menu</option>
+        <option value="movies">movies</option>                 
+      </select>
+    </div>
+    <div class="col-12">
+      <label for="email" class="form-label"><h3>Gener</h3> </label>
+      <select
+        name="sub_categary"
+        class="form-select"
+        aria-label="Default select example"
+      >
+        <option selected>Open this select menu</option>
+        <option value="action">Action</option> 
+        <option value="comedy">comedy</option>
+        <option value="sai_fi">sai-fi</option> 
+        <option value="horror">Horror</option>               
+      </select>
+    </div>
+  </div>
+
+  <hr class="my-4" />
+
+  <hr class="my-4" />
+
+  <div class="row gy-3">
+    <div class="col-12">
+          <label for="email" class="form-label"><h3>upload thumbnail</h3> </label>
+          <input  name="thumbnail" type="file" class="form-control" id="email" placeholder="move discription">
+          <div class="invalid-feedback">
+            Please enter a valid email address for shipping updates.
+          </div>
+        </div>
+    <div class="col-12">
+      <label for="email" class="form-label"
+        ><h3>upload video</h3>
+      </label>
+      <input
+        name="file1"
+        type="file"
+        class="form-control"
+        id="email"
+        placeholder="move discription"
+      />
+      <div class="invalid-feedback">
+        Please enter a valid email address for shipping updates.
+      </div>
+    </div>
+  </div>
+
+  <hr class="my-4" />
+
+  <button class="w-100 btn btn-primary btn-lg" type="submit">
+    Continue to checkout
+  </button>
+</form>

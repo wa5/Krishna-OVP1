@@ -28,6 +28,8 @@ app.use(session({
 app.use('/api',endPont.login)
 app.use('/api',endPont.home)
 app.use('/api',endPont.register)
+app.use('/api',endPont.videosPage)
+ app.use('/api',endPont.uploadvideosPage)
 
 
 
