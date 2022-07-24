@@ -415,3 +415,19 @@ Cannot read properties of undefined (reading 'email')
     10|           <center>
 
 users is not defined
+20220724	21:48:28	c0c8e7bc-6486-489e-ba27-3a0265707699	SyntaxError: missing ) after argument list in F:\institutes\Krishna-OVP1\OVP\backend\src\views\logs.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+20220724	21:48:40	82c38413-1ac1-44ac-acbf-1245b29a47cc	SyntaxError: missing ) after argument list in F:\institutes\Krishna-OVP1\OVP\backend\src\views\logs.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+20220724	21:49:36	67b85969-24b5-41ad-8d65-3d90fad9225c	SyntaxError: missing ) after argument list in F:\institutes\Krishna-OVP1\OVP\backend\src\views\logs.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+20220724	22:59:56	45519bbd-f847-4dea-bfd7-f4761f3f6129	TypeError: req.query is not a function

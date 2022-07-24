@@ -54,6 +54,8 @@ app.use('/api',endPont.register)
 app.use('/api',endPont.videosPage)
  app.use('/api',endPont.uploadvideosPage)
  app.use('/api',endPont.allvideos)
+ app.use('/api',endPont.logs)
+ app.use('/api',endPont.singlelogs)
 
 
 

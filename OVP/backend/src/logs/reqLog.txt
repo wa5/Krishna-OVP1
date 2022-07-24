@@ -1058,3 +1058,7 @@
 20220724	12:52:26	e7d951c0-0e62-4a99-ab18-f8a7b38e7583	GET	undefined	/videos/video2.mp4
 20220724	12:52:28	8b790e05-86d3-4703-8a71-ab15c7854296	GET	undefined	/videos/video1.mp4
 20220724	12:52:28	a1ecba49-b3d4-4434-916d-87cce00f597e	GET	undefined	/videos/video2.mp4
+20220724	20:50:56	5d5a175a-cbbf-405c-a1ad-4b55a11d60ee	GET	undefined	/api/home
+20220724	20:51:05	aa8848ec-5746-4c09-bbf8-e8595a991bdb	GET	undefined	/api/navbar-top-fixed.css
+20220724	20:51:06	f9d8f4cb-c752-4e84-811b-70521e46d13f	GET	undefined	/css/bootstrap.min.css
+20220724	20:51:09	6623959a-1584-4ed9-8505-42c7d47aaf86	GET	undefined	/favicon.ico

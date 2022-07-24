@@ -19,9 +19,11 @@ let logEvents = async (message:any, logName:any) => {
         console.log(err);
     }
 }
-
+var datetime = new Date();
+const logfiledate=datetime.toISOString().slice(0,10)
+console.log(datetime.toISOString().slice(0,10));
 const logger = (req:any, res:any, next:any) => {
-    logEvents(`${req.method}\t${req.headers.origin}\t${req.url}`, 'reqLog.txt');
+    logEvents(`${req.method}\t${req.headers.origin}\t${req.url}`, `${logfiledate}-userLog.txt`);
     console.log(`${req.method} ${req.path}`);
     next();
 }
