@@ -1,6 +1,6 @@
-import {Router} from '../../common/exApp'
-import { AllVideos_Get } from '../../controller/allmovies.Ctrl'
+import {Router} from '../../../common/exApp'
+import { AllVideosofuser_Get } from '../../../controller/VIDEOS/allVideos.Ctrl'
 
 Router.route('/allvideos')
-.get(AllVideos_Get)
+.get(AllVideosofuser_Get)
 module.exports=Router

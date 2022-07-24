@@ -4,6 +4,8 @@ import { Iregister_Post } from "./new_user_register.interface";
 var { User } = require("../../models");
 import { Response } from "express";
 const bcrypt = require("bcrypt");
+const jwt=require('jsonwebtoken')
+const SECRT_KEY="USERAPIKEY"
 export const register_Get = (req: any, res: any) => {
   res.render("register");
 };
@@ -33,9 +35,18 @@ export const new_user_register_Post = async (
         const newUser = { name: name, email: email, password: hashedPwd };
         var userdta = new User(newUser);
         userdta.save();
-        await sendingMails(name, email);
 
-        res.status(201).json({ success: `New user ${name} created!` });
+
+        await sendingMails(name, email);
+        console.log("kio",userdta._id)
+        const maxAge = 3 * 24 * 60 * 60;
+        const token=jwt.sign({id:userdta._id},SECRT_KEY,{
+          expiresIn: maxAge
+        })
+        res.cookie('jwt', token, { httpOnly: true, maxAge: maxAge * 1000 });
+       // res.status(201).json({user:userdta,token:token})
+         res.render('login');
+        
       } catch (err: any) {
         res.status(500).json({ message: err.message });
       }

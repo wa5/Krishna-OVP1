@@ -1,3 +1,3 @@
 var User=require('./schema/users.schema')
-var Videos=require('./schema/videos.schema')
-module.exports={User}
+var VideosUpload=require('./schema/videos.schema')
+module.exports={User,VideosUpload}

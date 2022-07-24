@@ -2,6 +2,7 @@ require('../../../config/db.config')
 var mongoose=require('mongoose')
 var {Schema}=mongoose
 var videosStructure=new Schema({
+        userid:String,
     title:String,
     discription:String,
     categary:String,

@@ -48,3 +48,370 @@ users is not defined
     118|           <center>
 
 users is not defined
+20220723	19:06:39	49ec3eba-87a9-4f48-ae8c-44a314fc3d53	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\login.ejs:78
+    76|         </div>
+    77|         <div class="col-md-6">
+ >> 78|           <% if(error) { %>
+    79|             <p style="color: red;"><%= error %></p>
+    80|             <% } %>
+    81|           <h3 class="signin-text mb-3"> Sign In</h3>
+
+error is not defined
+20220723	19:06:44	4da7b874-8e67-4f8d-9a93-80acd274b2fa	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\login.ejs:78
+    76|         </div>
+    77|         <div class="col-md-6">
+ >> 78|           <% if(error) { %>
+    79|             <p style="color: red;"><%= error %></p>
+    80|             <% } %>
+    81|           <h3 class="signin-text mb-3"> Sign In</h3>
+
+error is not defined
+20220723	19:06:51	e211a4ba-3f9c-4cbb-b11c-adefd440c2df	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\login.ejs:78
+    76|         </div>
+    77|         <div class="col-md-6">
+ >> 78|           <% if(error) { %>
+    79|             <p style="color: red;"><%= error %></p>
+    80|             <% } %>
+    81|           <h3 class="signin-text mb-3"> Sign In</h3>
+
+error is not defined
+20220723	19:07:59	5398381c-0374-4155-8c7c-f0e66709da10	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\login.ejs:78
+    76|         </div>
+    77|         <div class="col-md-6">
+ >> 78|           <% if(error) { %>
+    79|             <p style="color: red;"><%= error %></p>
+    80|             <% } %>
+    81|           <h3 class="signin-text mb-3"> Sign In</h3>
+
+error is not defined
+20220723	19:08:20	ad1f70ba-7a54-41fd-994e-4dee9b8abe4b	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\login.ejs:78
+    76|         </div>
+    77|         <div class="col-md-6">
+ >> 78|           <% if(error) { %>
+    79|             <p style="color: red;"><%= error %></p>
+    80|             <% } %>
+    81|           <h3 class="signin-text mb-3"> Sign In</h3>
+
+error is not defined
+20220723	19:11:32	14998f43-d0bb-458d-8ee3-bb6e8edac28b	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\login.ejs:78
+    76|         </div>
+    77|         <div class="col-md-6">
+ >> 78|           <% if(error) { %>
+    79|             <p style="color: red;"><%= error %></p>
+    80|             <% } %>
+    81|           <h3 class="signin-text mb-3"> Sign In</h3>
+
+error is not defined
+20220723	19:48:20	fb56c7bf-af57-4b66-b6f3-17cfa2e016c2	TypeError: Cannot read properties of undefined (reading 'jwt')
+20220723	19:49:00	1dc5ad13-e72c-4db4-8644-75f971fd8d49	TypeError: Cannot read properties of undefined (reading 'jwt')
+20220723	19:59:37	b109810f-3765-478b-b4d2-5859b462739d	TypeError: Cannot read properties of undefined (reading 'jwt')
+20220723	20:00:25	2e518e4c-b6db-4eee-b43e-01426bc39bcc	TypeError: Cannot read properties of undefined (reading 'jwt')
+20220723	20:01:56	079d14a5-9248-4dca-8be4-ad42f8ada423	TypeError: Cannot read properties of undefined (reading 'jwt')
+20220723	20:07:56	8ea7a2c2-e9f2-4958-abf3-31d259481a72	TypeError: Cannot read properties of undefined (reading 'jwt')
+20220723	20:08:04	78aafad7-48c6-493c-930a-3d7924ecc5d6	TypeError: Cannot read properties of undefined (reading 'jwt')
+20220723	20:08:33	904b115b-74ae-41dc-85a4-129e5550799e	TypeError: Cannot read properties of undefined (reading 'jwt')
+20220723	21:37:12	685c38ec-6a5e-441b-94b8-d25fe7af8fd5	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\login.ejs:78
+    76|         </div>
+    77|         <div class="col-md-6">
+ >> 78|           <% if(error) { %>
+    79|             <p style="color: red;"><%= error %></p>
+    80|             <% } %>
+    81|           <h3 class="signin-text mb-3"> Sign In</h3>
+
+error is not defined
+20220723	21:37:43	09f0aae6-1875-438e-a902-1b8f0fd4be38	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\login.ejs:78
+    76|         </div>
+    77|         <div class="col-md-6">
+ >> 78|           <% if(error) { %>
+    79|             <p style="color: red;"><%= error %></p>
+    80|             <% } %>
+    81|           <h3 class="signin-text mb-3"> Sign In</h3>
+
+error is not defined
+20220723	21:38:10	46e8fce0-5381-4e39-a907-0f340f9ff11f	SyntaxError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+Unexpected token 'catch' in F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+20220723	21:42:20	436a273b-f1d9-4a2a-b324-8e1315268fba	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:105
+    103|    
+    104|         </li>
+ >> 105|         <% if (user) { %>
+    106|             <li>Welcome, <%= user.email %></li>
+    107|             <li> <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a></li>
+    108|           <% } else { %>
+
+user is not defined
+20220723	21:44:01	daf3b5c5-b27a-432a-9399-336699877ace	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:105
+    103|    
+    104|         </li>
+ >> 105|         <% if (user) { %>
+    106|             <li>Welcome, <%= user.email %></li>
+    107|             <li> <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a></li>
+    108|           <% } else { %>
+
+user is not defined
+20220723	21:44:05	fe1a186b-74c8-41c2-ae70-7ac24319ca88	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:105
+    103|    
+    104|         </li>
+ >> 105|         <% if (user) { %>
+    106|             <li>Welcome, <%= user.email %></li>
+    107|             <li> <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a></li>
+    108|           <% } else { %>
+
+user is not defined
+20220723	21:44:13	e8c85a01-e6ce-461b-bae0-a741741a5bb2	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:105
+    103|    
+    104|         </li>
+ >> 105|         <% if (user) { %>
+    106|             <li>Welcome, <%= user.email %></li>
+    107|             <li> <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a></li>
+    108|           <% } else { %>
+
+user is not defined
+20220723	21:47:54	457f3eee-2735-4920-b699-7375ba668820	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:105
+    103|    
+    104|         </li>
+ >> 105|         <% if (user) { %>
+    106|             <li>Welcome, <%= user.email %></li>
+    107|             <li> <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a></li>
+    108|           <% } else { %>
+
+user is not defined
+20220723	21:48:46	40e8fc6a-0b01-4b32-96c1-2b7a5a89f6e9	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:105
+    103|    
+    104|         </li>
+ >> 105|         <!-- <% if (user) { %>
+    106|             <li>Welcome, <%= user.email %></li>
+    107|             <li> <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a></li>
+    108|           <% } else { %>
+
+user is not defined
+20220723	21:48:54	51478ea5-d80b-46b3-9eb0-eff7e59dcbe8	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:105
+    103|    
+    104|         </li>
+ >> 105|         <!-- <% if (user) { %>
+    106|             <li>Welcome, <%= user.email %></li>
+    107|             <li> <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a></li>
+    108|           <% } else { %>
+
+user is not defined
+20220723	22:12:14	288c2101-dfd3-4d34-aa7d-bf41038bd800	TypeError: Cannot read properties of undefined (reading 'id')
+20220723	22:12:15	a92e8eb7-925e-43da-9eea-8ddfe38849c0	TypeError: Cannot read properties of undefined (reading 'id')
+20220723	22:45:45	af5d074a-a618-4308-9889-b906616f4042	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:106
+    104|         
+    105|         </li>
+ >> 106|          <% if (user) { %>
+    107|             <li>Welcome, <%= user.email %></li>
+    108|             <li> <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a></li>
+    109|           <% } else { %>
+
+user is not defined
+20220723	22:50:31	955a67c9-4950-4e2d-b859-9a7601c64929	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:107
+    105|         <a class="btn  btn-info" href="http://localhost:8000/api/login" role="button">login </a>
+    106|         <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a>
+ >> 107|         <%= user.email %>
+    108|     </ul>
+    109|      
+    110|     </div>
+
+user is not defined
+20220723	22:54:51	dd2f0340-a475-471e-b944-b02a4516bace	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:107
+    105|         <a class="btn  btn-info" href="http://localhost:8000/api/login" role="button">login </a>
+    106|         <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a>
+ >> 107|         <%= user.email %>
+    108|     </ul>
+    109|      
+    110|     </div>
+
+user is not defined
+20220723	22:55:12	e29312d0-81e9-4314-bf71-de9f40e25c60	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:107
+    105|         <a class="btn  btn-info" href="http://localhost:8000/api/login" role="button">login </a>
+    106|         <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a>
+ >> 107|         <%= user.email %>
+    108|     </ul>
+    109|      
+    110|     </div>
+
+user is not defined
+20220723	22:58:50	1c02459c-c7ed-491d-8807-2f3b421e282a	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:107
+    105|         <a class="btn  btn-info" href="http://localhost:8000/api/login" role="button">login </a>
+    106|         <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a>
+ >> 107|         <%= user.email %>
+    108|     </ul>
+    109|      
+    110|     </div>
+
+user is not defined
+20220723	22:59:00	7b9b4f65-0ac1-465e-96a4-481342a10af8	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:107
+    105|         <a class="btn  btn-info" href="http://localhost:8000/api/login" role="button">login </a>
+    106|         <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a>
+ >> 107|         <%= user.email %>
+    108|     </ul>
+    109|      
+    110|     </div>
+
+user is not defined
+20220723	23:00:16	12bda061-1276-4efa-85db-f6a690b44d68	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:107
+    105|         <a class="btn  btn-info" href="http://localhost:8000/api/login" role="button">login </a>
+    106|         <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a>
+ >> 107|         <%= user.email %>
+    108|     </ul>
+    109|      
+    110|     </div>
+
+user is not defined
+20220723	23:00:24	935844b7-076f-4a7c-aa48-ae872ca66144	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:107
+    105|         <a class="btn  btn-info" href="http://localhost:8000/api/login" role="button">login </a>
+    106|         <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a>
+ >> 107|         <%= user.email %>
+    108|     </ul>
+    109|      
+    110|     </div>
+
+user is not defined
+20220723	23:03:03	80a2bcdf-57df-42d9-a064-22be69b45610	TypeError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:107
+    105|         <a class="btn  btn-info" href="http://localhost:8000/api/login" role="button">login </a>
+    106|         <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a>
+ >> 107|         <%= user.email %>
+    108|     </ul>
+    109|      
+    110|     </div>
+
+Cannot read properties of undefined (reading 'email')
+20220723	23:03:07	c619a3b0-5691-426f-89c0-6694bd1e1e27	TypeError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:1
+ >> 1| <%- include('partials/header'); -%>
+    2| 
+    3| <main class="container">
+    4|   <div class="bg-light p-5 rounded">
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\header.ejs:107
+    105|         <a class="btn  btn-info" href="http://localhost:8000/api/login" role="button">login </a>
+    106|         <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a>
+ >> 107|         <%= user.email %>
+    108|     </ul>
+    109|      
+    110|     </div>
+
+Cannot read properties of undefined (reading 'email')
+20220724	00:42:58	4ba284e4-07dd-4544-87c2-4bce9c0e6757	TypeError: Cannot read properties of undefined (reading 'role')
+20220724	00:45:33	01690149-d4ab-4dc6-89d4-e826b000b003	TypeError: Cannot read properties of undefined (reading 'user')
+20220724	00:46:59	89e7a0d3-3e6f-494d-a438-6201015edaad	undefined: undefined
+20220724	00:47:56	ff7c5af7-2314-4b29-a05f-59a5b498f88d	undefined: undefined
+20220724	00:49:19	7e4cc73a-b8d7-42e1-8ba0-85528396d9f0	undefined: undefined
+20220724	00:51:28	88551e89-e217-47a1-994c-eb8de5443b9e	TypeError: Cannot read properties of undefined (reading 'render')
+20220724	00:53:06	565a3d08-f627-4058-95a0-56daad3ba7f7	undefined: undefined
+20220724	10:23:34	d9b01ec4-ae29-4142-b7cf-36dbf63730a0	Error: Cannot set headers after they are sent to the client
+20220724	10:23:34	bb78d133-b773-4204-9faf-b70bd7fdac86	Error: Cannot set headers after they are sent to the client
+20220724	10:23:34	2e48e53c-aa02-493c-9178-81c5fa53122c	Error: Cannot set headers after they are sent to the client
+20220724	11:46:04	ef3e8175-ad09-4c4e-a01b-e13837c2c87c	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\videosPage.ejs:7
+    5|     <h1>all movies prent in server</h1>
+    6|     <div class="row">
+ >> 7|       <% users.forEach(function(user){ %>
+    8|       <div class="col-3 mx-auto">
+    9|         <div>
+    10|           <center>
+
+users is not defined
