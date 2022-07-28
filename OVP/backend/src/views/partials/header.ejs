@@ -104,7 +104,7 @@
         </li>
         <% if (user) { %>
 
-            <li style="background-color: white;">Welcome, <%= user.email %></li>
+            <li ><a class="btn  btn-warning" href="http://localhost:8000/api/userdetails" role="button">Welcome, <%= user.fname %></a></li>
             <li> <a class="btn  btn-info" href="http://localhost:8000/api/logout" role="button">log out </a>
             </li>
           <% } else { %>

@@ -3,7 +3,8 @@ var mongoose=require('mongoose')
 var {Schema}=mongoose
 
 var userStructure=new Schema({
-    name:String,
+    fname:String,
+    lname:String,
     email:String,
     password:String,
     role:{

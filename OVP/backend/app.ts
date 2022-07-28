@@ -56,6 +56,7 @@ app.use('/api',endPont.videosPage)
  app.use('/api',endPont.allvideos)
  app.use('/api',endPont.logs)
  app.use('/api',endPont.singlelogs)
+ app.use('/api',endPont.userdetails)
 
 
 

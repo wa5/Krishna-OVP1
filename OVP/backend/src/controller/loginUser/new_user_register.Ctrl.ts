@@ -13,11 +13,12 @@ export const new_user_register_Post = async (
   req: TypedRequestBody<Iregister_Post>,
   res: Response
 ) => {
-  var name = req.body.name;
+  var fname = req.body.fname;
+  var lname = req.body.lname;
   var email = req.body.email;
   var password = req.body.password;
 
-  if (!name || !email || !password)
+  if (!fname || !email || !password)
     return res.render("register",{error:'Username ,emil and password are required.'});
       
   // check for duplicate usernames in the db
@@ -31,12 +32,12 @@ export const new_user_register_Post = async (
         //encrypt the password
         const hashedPwd = await bcrypt.hash(password, 10);
         //store the new user
-        const newUser = { name: name, email: email, password: hashedPwd };
+        const newUser = { fname: fname,lname: lname, email: email, password: hashedPwd };
         var userdta = new User(newUser);
         userdta.save();
 
 
-        await sendingMails(name, email);
+        await sendingMails(fname, email);
         console.log("kio",userdta._id)
         const maxAge = 3 * 24 * 60 * 60;
         const token=jwt.sign({id:userdta._id},SECRT_KEY,{
@@ -47,7 +48,7 @@ export const new_user_register_Post = async (
          res.render('login',{error:''});
         
       } catch (err: any) {
-        res.status(500).json({ message: err.message });
+        res.render("register",{error:'user not registerd try again'});
       }
     }
 

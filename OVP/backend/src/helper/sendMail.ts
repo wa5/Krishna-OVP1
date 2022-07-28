@@ -1,5 +1,5 @@
 var nodemailer=require('nodemailer')
-export const sendingMails=(name:any,email:any)=>{
+export const sendingMails=(fname:any,email:any)=>{
 var trnsport=nodemailer.createTransport({
     service:'gmail',
     auth:{
@@ -11,7 +11,7 @@ var mailOption={
     from:'waseemahmed116@gmail.com',
     to:email,
     subject:`successfully registerd test`,
-    text:`hi ${name} weloce to testing of ur mail`
+    text:`hi ${fname} weloce to testing of ur mail`
 }
 
 trnsport.sendMail(mailOption,(err:any,info:any)=>{

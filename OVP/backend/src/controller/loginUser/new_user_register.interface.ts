@@ -1,6 +1,7 @@
 export interface Iregister_Post{
     email:string,
     password:string,
-    name:string
+    fname:string,
+    lname:string,
     accepts:any
 }
