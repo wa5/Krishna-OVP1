@@ -7,7 +7,7 @@ const bcrypt = require("bcrypt");
 const jwt=require('jsonwebtoken')
 const SECRT_KEY="USERAPIKEY"
 export const register_Get = (req: any, res: any) => {
-  res.render("register");
+  res.render("register",{error:''});
 };
 export const new_user_register_Post = async (
   req: TypedRequestBody<Iregister_Post>,
@@ -18,16 +18,15 @@ export const new_user_register_Post = async (
   var password = req.body.password;
 
   if (!name || !email || !password)
-    return res
-      .status(400)
-      .json({ message: "Username ,emil and password are required." });
+    return res.render("register",{error:'Username ,emil and password are required.'});
+      
   // check for duplicate usernames in the db
-
- User.find({ email: email }, async (err: any, data: any) => {
-    if (data.length != 0) {
-      console.log("kk", err, data[0].password);
-      return res.sendStatus(409);
-    } else {
+  var conflic= await  User.find({ email: email })
+  console.log("email already exits",conflic!=0);
+  if (conflic[0]) {
+    console.log("email already exits");
+  res.render("register",{error:'email already exits'});
+}else{
       try {
         //encrypt the password
         const hashedPwd = await bcrypt.hash(password, 10);
@@ -45,13 +44,13 @@ export const new_user_register_Post = async (
         })
         res.cookie('jwt', token, { httpOnly: true, maxAge: maxAge * 1000 });
        // res.status(201).json({user:userdta,token:token})
-         res.render('login');
+         res.render('login',{error:''});
         
       } catch (err: any) {
         res.status(500).json({ message: err.message });
       }
     }
-  });
+
   // console.log(duplicate)
   // if (duplicate) return res.sendStatus(409); //Conflict
 };

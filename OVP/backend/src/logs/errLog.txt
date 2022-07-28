@@ -431,3 +431,21 @@ If the above error is not helpful, you may want to try EJS-Lint:
 https://github.com/RyanZim/EJS-Lint
 Or, if you meant to create an async function, pass `async: true` as an option.
 20220724	22:59:56	45519bbd-f847-4dea-bfd7-f4761f3f6129	TypeError: req.query is not a function
+20220728	13:56:19	1d10c5b6-5a7b-4da3-9d37-30c2834f2745	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\register.ejs:78
+    76|         </div>
+    77|         <div class="col-md-6">
+ >> 78|           <% if(error) { %>
+    79|             <p style="color: red;"><%= error %></p>
+    80|             <% } %>
+    81|           <h3 class="signin-text mb-3"> Register</h3>
+
+error is not defined
+20220728	13:56:30	50fe1da5-2d60-4282-97cb-92ebcf8d47cd	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\register.ejs:78
+    76|         </div>
+    77|         <div class="col-md-6">
+ >> 78|           <% if(error) { %>
+    79|             <p style="color: red;"><%= error %></p>
+    80|             <% } %>
+    81|           <h3 class="signin-text mb-3"> Register</h3>
+
+error is not defined
