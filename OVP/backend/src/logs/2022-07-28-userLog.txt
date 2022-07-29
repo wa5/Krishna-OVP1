@@ -122,3 +122,14 @@
 20220728	15:38:03	b008376b-b486-4361-b52d-5d30874db63c	GET	undefined	/api/userdetails
 20220728	15:38:03	b9f77fd8-bc41-49db-a846-ad998cfa739f	GET	undefined	/css/bootstrap.min.css
 20220728	15:38:03	2689c87d-238d-48fc-af55-ab60dc2a7df7	GET	undefined	/api/navbar-top-fixed.css
+20220728	19:25:20	93bc803e-5a3a-40c3-84cd-a6dd955fe6a3	POST	http://localhost:8000	/api/register
+20220728	19:25:24	95fd2f24-ac12-4652-a4db-105b4ed39920	GET	undefined	/api/userdetails
+20220728	19:25:26	6da8ad12-2cc6-4f31-818d-653e8a2cdd79	GET	undefined	/api/navbar-top-fixed.css
+20220728	19:25:26	60527aaf-1c07-4c4d-841c-c6a7bd358e66	GET	undefined	/css/bootstrap.min.css
+20220728	19:29:58	18f4cd52-eaf8-471e-a329-ec8b1cd74590	GET	undefined	/api/userdetails
+20220728	19:30:56	d002d56e-2fad-4f76-86e4-f847d72e79f6	GET	undefined	/api/userdetails
+20220728	19:30:57	a8c242db-9757-4cc0-a988-7c2ce17c11ad	GET	undefined	/css/bootstrap.min.css
+20220728	19:30:57	0962bd1b-283c-4963-ac18-d7a4fa99121b	GET	undefined	/api/navbar-top-fixed.css
+20220728	19:31:19	8083e03a-375e-4036-963c-85875e6ceb1b	GET	undefined	/api/videospage
+20220728	19:31:20	f359e4b4-1a00-48e5-a695-9fa299215cdd	GET	undefined	/css/bootstrap.min.css
+20220728	19:31:20	0e8b98b6-d84a-462f-955c-85631ac72b84	GET	undefined	/api/navbar-top-fixed.css
