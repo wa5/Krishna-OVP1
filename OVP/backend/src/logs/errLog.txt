@@ -449,3 +449,21 @@ error is not defined
     81|           <h3 class="signin-text mb-3"> Register</h3>
 
 error is not defined
+20220729	12:14:27	53689a42-5f10-4602-8018-761076a865c8	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\singlepage.ejs:7
+    5|       <h1>all videos present in server of you </h1>
+    6|       <div class="row">
+ >> 7|         <% users.forEach(function(user){ %>
+    8|         <div class="col-3 mx-auto">
+    9|           <div>
+    10|             <center>
+
+users is not defined
+20220729	12:25:00	40cfe476-7b26-49c6-ae58-c747fd75860f	ReferenceError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\singlepage.ejs:7
+    5|       <h1>all videos present in server of you </h1>
+    6|       <div class="row">
+ >> 7|         <% users.forEach(function(user){ %>
+    8|         <div class="col-3 mx-auto">
+    9|           <div>
+    10|             <center>
+
+users is not defined
