@@ -467,3 +467,29 @@ users is not defined
     10|             <center>
 
 users is not defined
+20220801	00:12:12	ff0ff03d-648d-45ee-a932-78e8a7d8bef7	TypeError: F:\institutes\Krishna-OVP1\OVP\backend\src\views\home.ejs:7
+    5| 
+    6| <main class="container-fluid">
+ >> 7|   <%- include('partials/navbar'); -%>
+    8|   <div class="bg-light p-5 rounded">
+    9|     <h1>all videos uploaded by you</h1>
+    10|     <p>you can see all uploaded videos of yours</p>
+
+F:\institutes\Krishna-OVP1\OVP\backend\src\views\partials\navbar.ejs:22
+    20|                   </li>
+    21|                   <li class="nav-item">
+ >> 22|                     <% if (user.role==1) { %>
+    23|                         <a class="nav-link" href="/api/logs">logs</a>
+    24|                     
+    25|                         <% }  %>
+
+Cannot read properties of null (reading 'role')
+20220801	00:46:18	095a93eb-3a42-4878-93fc-b3eba3ae6578	Error: Failed to lookup view "videosofall" in views directory "F:\institutes\Krishna-OVP1\OVP\backend\src\views"
+20220801	00:47:32	d8d2f381-7bc7-4ae4-9348-d8003c5532fa	Error: F:\institutes\Krishna-OVP1\OVP\backend\src\views\videos\videosofall.ejs:1
+ >> 1| <%- include('partials/header2'); -%>
+    2| <div class="container-fluid">
+    3|     <%- include('partials/navbar'); -%>
+    4|     <div class="row">
+
+Could not find the include file "partials/header2"
+20220801	01:05:34	7debe9a8-d3f9-4694-9aca-72bcfaf95e27	Error: Cannot set headers after they are sent to the client

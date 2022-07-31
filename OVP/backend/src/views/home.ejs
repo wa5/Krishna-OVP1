@@ -1,26 +1,51 @@
-<%- include('partials/header'); -%>
+<%- include('partials/header2'); -%>
 
 
 
 
-<main class="container">
-  <div class="bg-light p-5 rounded">
-    <h1>all videos uploaded by you</h1>
-    <p>you can see all uploaded videos of yours</p>
-     <a class="btn btn-lg btn-primary" href="http://localhost:8000/api/videospage" role="button">all  videos &raquo;</a>
+<div class="container-fluid">
+  <%- include('partials/navbar'); -%>
+<div class="row">
+  <div class="col">
+    <div class="card text-center">
+      <div class="card-header">
+        features
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">all videos uploaded by you</h5>
+        <p class="card-text">you can see all uploaded videos of yours</p>
+        <a class="btn btn-lg btn-primary" href="http://localhost:8000/api/videospage" role="button">all  videos &raquo;</a>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      </div>
+      <div class="card-footer text-muted">
+    
+      </div>
+    </div>
+  </div>
 </div>
-</main>
-<main class="container">
-  <div class="bg-light p-5 rounded">
-    <h1>upload videos</h1>
-    <p>you can upload videos whitch will be shonwn to all users</p>
-    <a class="btn btn-lg btn-primary" href="http://localhost:8000/api/uploadvideos" role="button">upload videos &raquo;</a>
+<br>
+<div class="row">
+  <div class="col">
+    <div class="card text-center">
+      <div class="card-header">
+        features
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">upload videos</h5>
+        <p class="card-text">you can upload videos whitch will be shonwn to all users</p>
+        <a class="btn btn-lg btn-primary" href="http://localhost:8000/api/uploadvideos" role="button">all  videos &raquo;</a>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      </div>
+      <div class="card-footer text-muted">
+    
+      </div>
+    </div>
+  </div>
 </div>
-</main>
+
+
+</div>
+
 
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
